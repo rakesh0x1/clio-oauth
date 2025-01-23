@@ -7,7 +7,7 @@ const router = express.Router();
 
 const CLIENT_ID = "5qhfhbu2EXGTWbuJn7SJj0kazexCNRm3JMO5W2Mp";
 const CLIENT_SECRET = "93qwIi53BDBMxOuIUMUg0IwephmSsIsdp8ZEAt75";
-const REDIRECT_URI = "https://localhost:5000/callback"; // Replace with your app's callback URL
+const REDIRECT_URI = "https://clio-oauth.onrender.com/callback"; // Replace with your app's callback URL
 const JWT_SECRET = process.env.JWT_SECRET; // Ensure you have a secret for JWT
 
 // Utility functions for managing users
